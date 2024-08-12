@@ -1,28 +1,31 @@
 body {
-    background-color: #090909;
+    background-color: #FFF6FF;
     margin: 0px;
     margin-bottom: 100px;
 }
 h1 {
-    color: white;
-    border-bottom: solid 3px blueviolet;
+    color: #7128EA;
+    border-bottom: solid 3px #7128EA;
     font-family: "Rubik Mono One", monospace;
   font-weight: 400;
   font-style: normal;
     margin: 0px;
     padding: 10px;
 }
+.suzume h2 {
+    color: #7128EA;
+}
 h2 {
-    color: blueviolet;
+    margin-left: 5px;
+    color: #1F1926;
     font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
 }
-
 h4 {
-    color: white;
-margin: 10px;
+    color: #4B4453;
+margin: 15px;
 font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -31,7 +34,7 @@ font-family: "Montserrat", sans-serif;
 .suzume {
     display: flex;
     margin: 0px;
-    background-color: #0e0e0e;
+    background-color: #FCEAFF;
     padding: 20px;
 }
 .txtsuzume {
@@ -42,7 +45,7 @@ font-family: "Montserrat", sans-serif;
     margin-left: 20px;
 }
 img {
-    height: 200px;
+    height: 150px;
 }
 .relsuzume {
     margin: 0px;
@@ -53,10 +56,22 @@ img {
         
 }
 .relsuzume img {
-    opacity: 0.25;
+    background-color: #D1DEDE;
+    opacity: 0.75;
 }
 .relsuzume img:hover {
     opacity: 1;
-    height: 250px;
-    border: solid 5px blueviolet;
+    height: 175px;
+    border-bottom: solid 5px #7128EA;
+    
+}
+.sobresuzume {
+    color: #4B4453;
+    margin-left: 20px;
+}
+img {
+    border-radius: 10px;
+}
+iframe {
+    border-radius: 10px;
 }
