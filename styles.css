@@ -1,0 +1,62 @@
+body {
+    background-color: #090909;
+    margin: 0px;
+    margin-bottom: 100px;
+}
+h1 {
+    color: white;
+    border-bottom: solid 3px blueviolet;
+    font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+    margin: 0px;
+    padding: 10px;
+}
+h2 {
+    color: blueviolet;
+    font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+h4 {
+    color: white;
+margin: 10px;
+font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.suzume {
+    display: flex;
+    margin: 0px;
+    background-color: #0e0e0e;
+    padding: 20px;
+}
+.txtsuzume {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+img {
+    height: 200px;
+}
+.relsuzume {
+    margin: 0px;
+    padding: 7px;
+        display: flex;
+        overflow-x: auto;
+        gap: 8px;
+        
+}
+.relsuzume img {
+    opacity: 0.25;
+}
+.relsuzume img:hover {
+    opacity: 1;
+    height: 250px;
+    border: solid 5px blueviolet;
+}
