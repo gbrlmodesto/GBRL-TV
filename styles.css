@@ -12,7 +12,7 @@ h1 {
     margin: 0px;
     padding: 10px;
 }
-.suzume h2 {
+.filmes h2 {
     color: #7128EA;
 }
 h2 {
@@ -31,13 +31,13 @@ font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
-.suzume {
+.filmes {
     display: flex;
     margin: 0px;
     background-color: #FCEAFF;
     padding: 20px;
 }
-.txtsuzume {
+.txtfilmes {
     font-size: 40px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -45,27 +45,25 @@ font-family: "Montserrat", sans-serif;
     margin-left: 20px;
 }
 img {
-    height: 150px;
+    height: 175px;
 }
-.relsuzume {
+.relacionados {
     margin: 0px;
     padding: 7px;
         display: flex;
         overflow-x: auto;
-        gap: 8px;
-        
+        gap: 8px;  
 }
-.relsuzume img {
+.relacionados img {
     background-color: #D1DEDE;
     opacity: 0.75;
 }
-.relsuzume img:hover {
+.relacionados img:hover {
     opacity: 1;
     height: 175px;
     border-bottom: solid 5px #7128EA;
-    
 }
-.sobresuzume {
+.sobre {
     color: #4B4453;
     margin-left: 20px;
 }
